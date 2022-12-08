@@ -4,6 +4,7 @@ command = "npm run build"
 
 [functions]
 directory = "functions/"
+external_node_modules = ["@brillout/vite-plugin-import-build"]
 
 [[redirects]]
 from = "/*"
